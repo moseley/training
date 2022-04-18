@@ -1,0 +1,6 @@
+.next
+dist
+node_modules/
+src/graphql/
+src/API.ts
+src\models

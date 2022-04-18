@@ -1,0 +1,29 @@
+Script:
+
+Dispatch Center: Structure fire Engine 1, Engine 2, Engine 3, Truck 1, Truck 2, Battalion 1 623 Luna Park. Repeating, structure fire Engine 1, Engine 2, Engine 3, Truck 1, Truck 2, Battalion 1 623 Luna Park. Caller states smoke in the building.
+
+[Dispatcher Center (Response: Dispatch copies, <command with proper pronouns>): Wait for a response that contains any of these keywords: feet, story, rise, residential, commercial, industrial, yard, family, dwelling, apartment, office, house, warehouse, tiltup, retail, small, medium, large]
+
+[Dispatch Center (Response: Dispatch copies, <second/third> alarm requested.): Wait for a response that contains: second alarm, 2nd alarm, alarm two, alarm 2, second box, 2nd box, box two, box 2, commercial alarm, third alarm, 3rd alarm, alarm three, alarm 3, third box, 3rd box, box three, box 3]
+
+[Dispatcher Center (Response: Dispatch copies, <command with proper pronouns>): Wait for a response that contains any of these keywords: room, content, attic, basement, structure, fire, bidirectional, bi-directional, unidirectional, uni-directional, survivability, profile, exhaust, intake, positive, marginal, negative, entry, egress]
+
+Engine 2: Engine 2 on scene staged requesting an assignment
+
+[Engine 2 (Response: Luna command from Engine 2. I copy, I will be <assignment> group.): Wait for response that contains Engine + Two/2 + Available Assignment]
+
+Truck 1: Truck 1 on scene staged requesting an assignment
+
+[Truck 1 (Response: Luna command from Truck 1. I copy, I will be <assignment> group.): Wait for response that contains Truck + One/1 + Available Assignment]
+
+Engine 3: Engine 3 on scene staged requesting an assignment
+
+[Engine 3 (Response: Luna command from Engine 3. I copy, I will be <assignment> group.): Wait for response that contains Engine + Three/3 + Available Assignment]
+
+Ventilation: Command from Ventilation. Firefighter has been injured on a ground ladder that has slipped, he rode the ladder to the ground and hit his head. He is unconscious.
+
+[Ventilation (Response: Luna command from Ventilation. I copy, <command with proper pronouns>): Wait for any response]
+
+Battalion 1: Give me a transfer of command report.
+
+[Battalion 1 (Response: Copy, I will assume command.): Wait for any response]
